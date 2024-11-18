@@ -76,7 +76,7 @@ int main() {
   int bit5 = (sum >> 5) & 1;
   int bit7 = (sum >> 7) & 1;
   int bit11 = (sum >> 11) & 1;
-  printf("The 3,5,7,11 bits are: %d%d%d%d\n", bit11, bit7, bit5, bit3);
+  printf("The 3,5,7,11 bits are: %d%d%d%d\n", bit3, bit5, bit7, bit11);
 
 
   printf("Bye!\n");
